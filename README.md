@@ -1,4 +1,4 @@
-# 🏫 Lingo - Language Learning as a Service
+# 🏫 Langster - Language Learning as a Service
 
 Welcome to **Lingo**! This project is a language learning platform designed to make learning engaging and fun. Users can pick courses, dive into lessons, and interact with questions using AI-generated voices. Read on to learn more about our key features, setup instructions, and the technologies used to build this platform.
 
