@@ -13,9 +13,9 @@ Welcome to **Langster**! This project is a language learning platform designed t
 
 ## 🛠 System Diagrams
 
-![System Diagram 1](https://github.com/DhruvSharma19/Langster/assets/112254552/dcaf162d-c368-4bda-b79e-79734bb02cd6)
-![System Diagram 2](https://github.com/DhruvSharma19/Langster/assets/112254552/c1673051-af77-48ba-8942-140e45636107)
 ![System Diagram 3](https://github.com/DhruvSharma19/Langster/assets/112254552/f519966a-9c44-4dbc-b88d-2817fcb5c8c6)
+![System Diagram 2](https://github.com/DhruvSharma19/Langster/assets/112254552/c1673051-af77-48ba-8942-140e45636107)
+![System Diagram 1](https://github.com/DhruvSharma19/Langster/assets/112254552/dcaf162d-c368-4bda-b79e-79734bb02cd6)
 
 ## ✨ Key Features
 
@@ -61,7 +61,7 @@ To get started with Langster, follow these steps:
    ```
 
 3. **Set Up Environment Variables**:
-   Create a `.env` file in the root directory and add the necessary environment variables. Refer to `.env.example` for the required variables.
+   Create a `.env` file in the root directory and add the necessary environment variables.
 
 4. **Run the Development Server**:
    ```bash
@@ -83,10 +83,8 @@ We welcome contributions to Langster! To contribute:
    Click the "Fork" button at the top right corner of the repository page.
 
 2. **Clone Your Fork**:
-   ```
-
-bash
-   git clone https://github.com/DhruvSharma19/Langster.git
+   ```bash
+   git clone https://github.com/your-username/Langster.git
    cd Langster
    ```
 
@@ -115,6 +113,7 @@ bash
 We appreciate your contributions and will review your pull request as soon as possible!
 
 ## 🙏 Acknowledgements
+
 A big thank you to everyone who contributed to this project! We appreciate your support and feedback.
 
 If you have any questions or need assistance, feel free to open an issue or reach out to the project maintainers. Enjoy using Langster and happy coding! ✨
