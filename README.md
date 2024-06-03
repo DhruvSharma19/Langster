@@ -2,14 +2,17 @@
 
 Welcome to **Langster**! This project is a language learning platform designed to make learning engaging and fun. Users can pick courses, dive into lessons, and interact with questions using AI-generated voices. Read on to learn more about our key features, setup instructions, and the technologies used to build this platform.
 
-**Test User:** testuser@gmail.com  
-**Password:** 12345678  
+🧑‍💻 **Test User:** testUser@gmail.com  
+🔐 **Password:** 12345678
 
-**Website Link:** [Langster](https://langster.vercel.app/)
+🌐 **Website Link:**  [Langster](https://langster.vercel.app/)
 
 ## 🎥 Demo Video
 
+
+
 ## 🛠 System Diagrams
+
 ![System Diagram 1](https://github.com/DhruvSharma19/Langster/assets/112254552/dcaf162d-c368-4bda-b79e-79734bb02cd6)
 ![System Diagram 2](https://github.com/DhruvSharma19/Langster/assets/112254552/c1673051-af77-48ba-8942-140e45636107)
 ![System Diagram 3](https://github.com/DhruvSharma19/Langster/assets/112254552/f519966a-9c44-4dbc-b88d-2817fcb5c8c6)
@@ -26,8 +29,6 @@ Welcome to **Langster**! This project is a language learning platform designed t
 - 📊 **Admin Dashboard**: Manage content efficiently with React-based dashboard.
 - 📱 **Mobile Responsiveness**: Enjoy seamless experience across devices.
 
-## 🖼️ Screenshots
-
 ## 🛠 Technologies Used
 
 - 🌐 **Next.js 14**: Framework for building the platform.
@@ -40,38 +41,80 @@ Welcome to **Langster**! This project is a language learning platform designed t
 - 🧙 **Stripe**: Payment gateway for subscription.
 - 🎭 **KenneyNL**: Visual assets and characters.
 
-## ⚙️ Setup Instructions
+## 🖼️ Screenshots
 
-To get started with the Langster project, follow these steps:
 
-1. **Clone the Repository**: Clone this repository to your local machine.
+
+## 🚀 Getting Started
+
+To get started with Langster, follow these steps:
+
+1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/DhruvSharma19/Langster.git
+   cd Langster
    ```
 
-2. **Install Dependencies**: Navigate into the Langster directory and install necessary packages.
+2. **Install Dependencies**:
    ```bash
-   cd Langster
    npm install
    ```
 
-3. **Configure Environment Variables**: Create a `.env` file with your project-specific variables (like Stripe keys, database URLs, etc.).
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the root directory and add the necessary environment variables. Refer to `.env.example` for the required variables.
 
-4. **Run the Development Server**: Start the development server to work on the project locally.
+4. **Run the Development Server**:
    ```bash
    npm run dev
    ```
+   The application should now be running on `http://localhost:3000`.
 
-5. **Build and Deploy**: Build the project for production and deploy it.
+5. **Build for Production**:
    ```bash
    npm run build
-   npm run start
+   npm start
    ```
 
-## 📧 Contact and Support
+## 🤝 Contributions
 
-For questions, issues, or suggestions, feel free to open an issue in this repository or contact our support team at [support@example.com](mailto:support@example.com).
+We welcome contributions to Langster! To contribute:
 
-## 📄 License
+1. **Fork the Repository**:
+   Click the "Fork" button at the top right corner of the repository page.
 
-This project is licensed under the [MIT License](LICENSE).
+2. **Clone Your Fork**:
+   ```
+
+bash
+   git clone https://github.com/DhruvSharma19/Langster.git
+   cd Langster
+   ```
+
+3. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+4. **Make Your Changes**:
+   Implement your feature or fix the bug.
+
+5. **Commit Your Changes**:
+   ```bash
+   git add .
+   git commit -m "Add your commit message here"
+   ```
+
+6. **Push to Your Fork**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+7. **Create a Pull Request**:
+   Open a pull request from your forked repository's branch to the main branch of the original repository.
+
+We appreciate your contributions and will review your pull request as soon as possible!
+
+## 🙏 Acknowledgements
+A big thank you to everyone who contributed to this project! We appreciate your support and feedback.
+
+If you have any questions or need assistance, feel free to open an issue or reach out to the project maintainers. Enjoy using Langster and happy coding! ✨
