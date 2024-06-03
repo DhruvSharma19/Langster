@@ -1,6 +1,6 @@
 # 🏫 Langster - Language Learning as a Service
 
-Welcome to **Lingo**! This project is a language learning platform designed to make learning engaging and fun. Users can pick courses, dive into lessons, and interact with questions using AI-generated voices. Read on to learn more about our key features, setup instructions, and the technologies used to build this platform.
+Welcome to **Langster**! This project is a language learning platform designed to make learning engaging and fun. Users can pick courses, dive into lessons, and interact with questions using AI-generated voices. Read on to learn more about our key features, setup instructions, and the technologies used to build this platform.
 
 ## ✨ Key Features
 
@@ -16,7 +16,7 @@ Welcome to **Lingo**! This project is a language learning platform designed to m
 
 ## ⚙️ Setup Instructions
 
-To get started with the Lingo project, follow these steps:
+To get started with the Langster project, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine.
    ```bash
@@ -25,7 +25,7 @@ To get started with the Lingo project, follow these steps:
 
 2. **Install Dependencies**: Install the necessary packages.
    ```bash
-   cd lingo
+   cd Langster
    npm install
    ```
 
