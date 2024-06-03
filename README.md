@@ -2,17 +2,43 @@
 
 Welcome to **Langster**! This project is a language learning platform designed to make learning engaging and fun. Users can pick courses, dive into lessons, and interact with questions using AI-generated voices. Read on to learn more about our key features, setup instructions, and the technologies used to build this platform.
 
+**Test User:** testuser@gmail.com  
+**Password:** 12345678  
+
+**Website Link:** [Langster](https://langster.vercel.app/)
+
+## 🎥 Demo Video
+
+## 🛠 System Diagrams
+![System Diagram 1](https://github.com/DhruvSharma19/Langster/assets/112254552/dcaf162d-c368-4bda-b79e-79734bb02cd6)
+![System Diagram 2](https://github.com/DhruvSharma19/Langster/assets/112254552/c1673051-af77-48ba-8942-140e45636107)
+![System Diagram 3](https://github.com/DhruvSharma19/Langster/assets/112254552/f519966a-9c44-4dbc-b88d-2817fcb5c8c6)
+
 ## ✨ Key Features
 
-- 🗣 **Interactive Lessons**: Pick a course, dive into a lesson, and interact with questions using AI-generated voices.
-- ❤️ **Dynamic Heart System**: Stay motivated with a heart-based system that encourages success.
-- 🌟 **Points and Leaderboard**: Earn points, hit milestones, and compete on a leaderboard.
-- 🔄 **Practice Old Lessons**: Revisit previous lessons to regain hearts.
-- 🛍 **Shop System**: Exchange points for hearts in a built-in shop.
-- 💳 **Pro Tier with Subscription**: Get unlimited hearts with a Stripe-based subscription.
-- 🏠 **Landing Page**: A beautiful landing page to attract new users.
-- 📊 **Admin Dashboard**: Manage courses, units, lessons, and more with a React-based admin dashboard.
-- 📱 **Mobile Responsiveness**: Fully responsive design for all devices.
+- 🗣 **Interactive Lessons**: Engage with lessons using AI-generated voices.
+- ❤️ **Dynamic Heart System**: Stay motivated with a heart-based system.
+- 🌟 **Points and Leaderboard**: Compete and earn points on the leaderboard.
+- 🔄 **Practice Old Lessons**: Reinforce learning by revisiting previous lessons.
+- 🛍 **Shop System**: Redeem points for hearts in the shop.
+- 💳 **Pro Tier with Subscription**: Unlock unlimited hearts with a subscription.
+- 🏠 **Landing Page**: Attractive landing page to welcome new users.
+- 📊 **Admin Dashboard**: Manage content efficiently with React-based dashboard.
+- 📱 **Mobile Responsiveness**: Enjoy seamless experience across devices.
+
+## 🖼️ Screenshots
+
+## 🛠 Technologies Used
+
+- 🌐 **Next.js 14**: Framework for building the platform.
+- 🗣 **Elevenlabs AI**: AI-generated voices for interactive lessons.
+- 🎨 **Shadcn UI**: Component system for beautiful UI.
+- 🔐 **Clerk**: Authentication and authorization.
+- 💾 **DrizzleORM**: Object-Relational Mapping for database operations.
+- 🗄 **NeonDB and PostgresDB**: Database management.
+- 🚀 **Vercel**: Deployment platform.
+- 🧙 **Stripe**: Payment gateway for subscription.
+- 🎭 **KenneyNL**: Visual assets and characters.
 
 ## ⚙️ Setup Instructions
 
@@ -23,7 +49,7 @@ To get started with the Langster project, follow these steps:
    git clone <repository-url>
    ```
 
-2. **Install Dependencies**: Install the necessary packages.
+2. **Install Dependencies**: Navigate into the Langster directory and install necessary packages.
    ```bash
    cd Langster
    npm install
@@ -42,20 +68,6 @@ To get started with the Langster project, follow these steps:
    npm run start
    ```
 
-## 🛠 Technologies Used
-
-Here's a list of the main technologies and libraries used in this project:
-
-- 🌐 **Next.js 14**: The framework for building the platform.
-- 🗣 **Elevenlabs AI**: AI-generated voices for interactive lessons.
-- 🎨 **Shadcn UI**: A component system for a beautiful user interface.
-- 🔐 **Clerk**: Authentication and authorization.
-- 💾 **DrizzleORM**: Object-Relational Mapping for database operations.
-- 🗄 **NeonDB and PostgresDB**: Database management.
-- 🚀 **Vercel**: Deployment platform.
-- 🧙 **Stripe**: Payment gateway for the pro tier subscription.
-- 🎭 **KenneyNL**: Characters and visual assets.
-
 ## 📧 Contact and Support
 
 For questions, issues, or suggestions, feel free to open an issue in this repository or contact our support team at [support@example.com](mailto:support@example.com).
@@ -63,4 +75,3 @@ For questions, issues, or suggestions, feel free to open an issue in this reposi
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-
