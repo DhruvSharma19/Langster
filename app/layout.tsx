@@ -22,7 +22,11 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={font.className}>
+        <head>
+          <link rel="preconnect" href="https://stijndv.com" />
+          <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
+        </head>
+        <body suppressHydrationWarning={true} className={font.className}>
           <Toaster />
           <ExitModal />
           <HeartsModal />

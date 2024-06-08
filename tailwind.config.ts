@@ -7,6 +7,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
+    "./sections/**/*.{js,ts,jsx,tsx,mdx}",
 	],
   prefix: "",
   theme: {
@@ -19,6 +20,8 @@ const config = {
     },
     extend: {
       colors: {
+        "primary-black": "#1A232E",
+        "secondary-white": "#c7c7c7",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -72,6 +75,12 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      transitionTimingFunction: {
+        "out-flex": "cubic-bezier(0.05, 0.6, 0.4, 0.9)",
+     },
+     screens: {
+        xs: "375px",
+     }
     },
   },
   plugins: [require("tailwindcss-animate")],
