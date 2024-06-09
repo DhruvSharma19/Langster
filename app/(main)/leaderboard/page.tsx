@@ -67,7 +67,7 @@ const LearderboardPage = async () => {
             >
               <p className="font-bold text-lime-700 mr-4">{index + 1}</p>
               <Avatar
-                className="border bg-green-500 h-12 w-12 ml-3 mr-6"
+                className="border bg-[#3572EF] h-12 w-12 ml-3 mr-6"
               >
                 <AvatarImage
                   className="object-cover"
