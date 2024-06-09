@@ -9,7 +9,7 @@ Welcome to **Langster**! This project is a language learning platform designed t
 
 ## 🎥 Demo Video
 
-
+https://github.com/DhruvSharma19/Langster/assets/112254552/35cafbbb-d99a-49be-8cb6-8ce4e311a3a0
 
 ## 🛠 System Diagrams
 
